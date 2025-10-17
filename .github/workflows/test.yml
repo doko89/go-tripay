@@ -12,4 +12,4 @@ jobs:
           with:
             go-version: '1.22.x'
         - name: run unit test
-          run: go test -v -run=. github.com/zakirkun/go-tripay/client
+          run: go test -v -run=. github.com/doko89/go-tripay/client
